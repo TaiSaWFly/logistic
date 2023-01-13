@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/manifest.json">
+    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#004AF2">
+    <meta name="theme-color" content="#004AF2">
+
+    <title>Center Logistic</title>
+</head>
+<body>
+<div class="page">
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="conteiner">
+            <div class="header_inner">
+                <div class="header_logo" data-scroll="#intro" data-aos="fade-in">
+                    <img class="header_logo-icon" src="assets/images/header_logo-w.svg" alt="Center Logistic">
+                    <a class="header_logo-text" href="">CenterLogistic</a>
+                </div>
+
+                <nav class="nav" id="nav" data-aos="fade-in">
+                    <a class="nav_link" href="#" data-scroll="#services">Services</a>
+                    <a class="nav_link" href="#" data-scroll="#clients">Clients</a>
+                    <a class="nav_link" href="#" data-scroll="#benefits">Benefits</a>
+                    <a class="nav_link" href="#" data-scroll="#team">Team</a>
+                    <a class="nav_link" href="#" data-scroll="#mission">Mission</a>
+                    <a class="nav_link" href="#" data-scroll="#news">News</a>
+                    <a class="nav_link" href="#" data-modal="#becomeClientModal">Contact Us</a>
+                </nav>
+
+                <button class="burger" type="button" id="burgerNav">
+                    <span class="burger_line">1</span>
+                    <span class="burger_line">2</span>
+                    <span class="burger_line">3</span>
+                    <span class="burger_line">4</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Intro -->
+    <div class="intro" id="intro">
+           <div class="intro_slider" id="introSlider">
+                <div class="intro_slider-item">
+                    <div class="slider-item" style="background-image: url(assets/images/slider/slide-1.jpg)"> </div>
+                </div>
+
+                <div class="intro_slider-item">
+                    <img class="slider_item-photo" src="assets/images/slider/slide-2.jpg" alt="">
+                </div>
+
+                <div class="intro_slider-item">
+                    <div class="slider-item" style="background-image: url(assets/images/slider/slide-3.jpg)"> </div>
+                </div>
+
+                <div class="intro_slider-item">
+                    <img class="slider_item-photo" src="assets/images/slider/slide-4.jpg" alt="">
+                </div>
+           </div>
+        <div class="conteiner">
+            <div class="intro_inner">
+
+                <div class="form_request form_request--intro" data-aos="fade-right">
+                    <div class="request">
+                        <h3 class="request_title">Get Callback</h3>
+                        <div class="request_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</div>
+                    </div>
+
+                    <div class="request_form">
+                        <form class="form" action="/" method="post">
+                            <div class="form_group">
+                                <input class="input input--user" type="text" name="name" placeholder="Your name">
+                            </div>
+                            <div class="form_group">
+                                <input class="input input--phone" type="tel" name="tel" placeholder="Your phone">
+                            </div>
+                            <div class="form_group">
+                                <input class="input input--mail" type="email" name="email" placeholder="Your e-mail">
+                            </div>
+                            <button class="btn btn--orange btn--long" type="submit" data-modal="#thanksModal">
+                                <span>Call me back</span>
+                            </button>
+                        </form>
+                    </div> <!-- /request_form-->
+                </div> <!-- /form_request-->
+
+                <div class="intro_name" data-aos="fade-left">
+                    <div class="intro_countries">USA, Europe, Asia</div>
+                    <h1 class="intro_title"><span class="title-amp">&amp;</span>Trans<br>Logistic</h1>
+                </div>
+                <div class="intro_slider-arrows" data-aos="fade-in">
+                    <button class="btn_intro-slider btn_intro-slider--prev" type="button" id="slickPrev">Prev</button>
+                    <button class="btn_intro-slider btn_intro-slider--next" type="button" id="slickNext">Next</button>
+                </div>
+            </div><!-- /intro_inner-->
+        </div> <!-- /conteiner-->
+    </div> <!-- /intro-->
+
+
+    <!-- Services -->
+
+    <section class="section" id="services" data-scrollspy="#services">
+       <div class="conteiner">
+           <div class="services" data-aos="fade-left">
+                <h2 class="services_main-title" data-aos="fade-in" data-aos-delay="200">Services</h2>
+
+               <div class="services_item" data-aos="fade-down" data-aos-delay="100">
+                   <h3 class="services_title">Ground shipping</h3>
+                   <div class="services-text">
+                       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+                   </div>
+
+                   <div class="services-more">
+                       <a class="more_link" href="#">Learn more</a>
+                   </div>
+               </div>
+
+               <div class="services_item" data-aos="fade-down" data-aos-delay="200">
+                   <h3 class="services_title">Railway shipping</h3>
+                   <div class="servicesg-text">
+                       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                   </div>
+
+                   <div class="services-more">
+                       <a class="more_link" href="#">Learn more</a>
+                   </div>
+               </div>
+
+               <div class="services_item" data-aos="fade-down" data-aos-delay="300">
+                   <h3 class="services_title">Water shipping</h3>
+                   <div class="services-text">
+                       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+                   </div>
+
+                   <div class="services-more">
+                       <a class="more_link" href="#">Learn more</a>
+                   </div>
+               </div>
+
+               <div class="services_item" data-aos="fade-down" data-aos-delay="400">
+                   <h3 class="services_title">Air shipping</h3>
+                   <div class="services-text">
+                       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                   </div>
+
+                   <div class="services-more">
+                       <a class="more_link" href="#">
+                           <span>
+                               Learn more
+                           </span>
+                       </a>
+                   </div>
+               </div>
+
+           </div> <!-- /services_inner-->
+       </div> <!-- /conteiner-->
+    </section> <!-- /services-->
+
+
+     <!-- Clients -->
+
+    <section class="section section--map_clients" id="clients" data-scrollspy="#clients">
+        <div class="conteiner">
+            <h2 class="section_title" data-aos="fade-down" data-aos-delay="10" data-aos-anchor="#clients"><span>Our </span>clients</h2>
+
+            <div class="clients">
+                <div class="client_map">
+                    <ul class="client_icon">
+                        <li data-aos="fade-right" data-aos-delay="25" data-aos-anchor="#clients">
+                            <a class="client_link" href="#" target="_blank">
+                                <img class="map_icon img" src="assets/images/clients/atica.svg" alt="atica">
+                            </a>
+                        </li>
+
+                        <li data-aos="fade-right" data-aos-delay="50" data-aos-anchor="#clients">
+                            <a class="client_link" href="#" target="_blank">
+                                <img class="map_icon img" src="assets/images/clients/hex-lab.svg" alt="hex-lab">
+                            </a>
+                        </li>
+
+                        <li data-aos="fade-right" data-aos-delay="75" data-aos-anchor="#clients">
+                            <a class="client_link" href="#" target="_blank">
+                                <img class="map_icon img" src="assets/images/clients/amara.svg" alt="amara">
+                            </a>
+                        </li>
+
+                        <li data-aos="fade-right" data-aos-delay="100" data-aos-anchor="#clients">
+                            <a class="client_link" href="#" target="_blank">
+                                <img class="map_icon img" src="assets/images/clients/muzica-2.svg" alt="muzica">
+                            </a>
+                        </li>
+
+                        <li data-aos="fade-right" data-aos-delay="125" data-aos-anchor="#clients">
+                            <a class="client_link" href="#" target="_blank">
+                                <img class="map_icon img" src="assets/images/clients/solaytic.svg" alt="solaytic">
+                            </a>
+                        </li>
+
+                        <li data-aos="fade-right" data-aos-delay="150" data-aos-anchor="#clients">
+                            <a class="client_link" href="#" target="_blank">
+                                <img class="map_icon img" src="assets/images/clients/hexa.svg" alt="hex-lab">
+                            </a>
+                        </li>
+
+                        <li data-aos="fade-right" data-aos-delay="175" data-aos-anchor="#clients">
+                            <a class="client_link" href="#" target="_blank">
+                                <img class="map_icon img" src="assets/images/clients/utosia-2.svg" alt="utosia">
+                            </a>
+                        </li>
+
+                        <li data-aos="fade-right" data-aos-delay="200" data-aos-anchor="#clients">
+                            <a class="client_link" href="#" target="_blank">
+                                <img class="map_icon img" src="assets/images/clients/fox-hub.svg" alt="fox-hub">
+                            </a>
+                        </li>
+                    </ul> <!-- /client_icon-->
+                </div> <!-- /client_map-->
+
+                <div class="client_reviews" data-aos-anchor="#clients" data-aos="fade-left" data-aos-delay="100">
+
+                   <div class="rewiews" id="rewiewsSlider">
+                       <div class="rewiews_item">
+                           <div class="rewiews_header_item">
+                              <div class="reviews_header">
+                                  <img class="reviews_lines-icon" src="assets/images/lines.svg" alt="lines">
+
+                                  <img class="reviews_photo" src="http://placehold.it/100" alt="">
+
+                                  <div class="reviews_main-title">
+                                      <h4 class="reviews_name">John Smith</h4>
+                                      <div class="reviews_prof">FOX Hub CEO</div>
+                                  </div>
+                              </div>
+                           </div>
+                           <div class="client_reviews-text">
+                                <div class="reviews_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi distinctio odio, cumque quo recusandae quibusdam, possimus nobis nostrum, repellendus aliquam officia, accusantium! Reprehenderit laboriosam ducimus molestiae praesentium, cumque, recusandae veritatis.</p>
+                                </div>
+                            </div>
+                        </div> <!-- /rewiews_item-->
+
+                        <div class="rewiews_item">
+                           <div class="rewiews_header_item">
+                              <div class="reviews_header">
+                                  <img class="reviews_lines-icon" src="assets/images/lines.svg" alt="lines">
+
+                                  <img class="reviews_photo" src="http://placehold.it/100" alt="">
+
+                                  <div class="reviews_main-title">
+                                      <h4 class="reviews_name">John Smith</h4>
+                                      <div class="reviews_prof">FOX Hub CEO</div>
+                                  </div>
+                              </div>
+                           </div>
+                           <div class="client_reviews-text">
+                                <div class="reviews_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi distinctio odio, cumque quo recusandae quibusdam, possimus nobis nostrum, repellendus aliquam officia, accusantium! Reprehenderit laboriosam ducimus molestiae praesentium, cumque, recusandae veritatis.</p>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi distinctio odio, cumque quo recusandae quibusdam, possimus nobis nostrum, repellendus aliquam officia, accusantium! Reprehenderit laboriosam ducimus molestiae praesentium, cumque, recusandae veritatis.</p>
+                                </div>
+                            </div>
+                        </div> <!-- /rewiews_item-->
+
+                        <div class="rewiews_item">
+                           <div class="rewiews_header_item">
+                              <div class="reviews_header">
+                                  <img class="reviews_lines-icon" src="assets/images/lines.svg" alt="lines">
+
+                                  <img class="reviews_photo" src="http://placehold.it/100" alt="">
+
+                                  <div class="reviews_main-title">
+                                      <h4 class="reviews_name">John Smith</h4>
+                                      <div class="reviews_prof">FOX Hub CEO</div>
+                                  </div>
+                              </div>
+                           </div>
+                           <div class="client_reviews-text">
+                                <div class="reviews_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi distinctio odio, cumque quo recusandae quibusdam, possimus nobis nostrum, repellendus aliquam officia, accusantium! Reprehenderit laboriosam ducimus molestiae praesentium, cumque, recusandae veritatis.</p>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi distinctio odio, cumque quo recusandae quibusdam, possimus nobis nostrum, repellendus aliquam officia, accusantium! Reprehenderit laboriosam ducimus molestiae praesentium, cumque, recusandae veritatis.</p>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi distinctio odio, cumque quo recusandae quibusdam, possimus nobis nostrum, repellendus aliquam officia, accusantium! Reprehenderit laboriosam ducimus molestiae praesentium, cumque, recusandae veritatis.</p>
+                                </div>
+                            </div>
+                        </div> <!-- /rewiews_item-->
+
+                    </div> <!-- /reviews-->
+
+                </div> <!-- /client_reviews-->
+
+            </div> <!-- /clients-->
+                <button class="btn btn--orange btn--shadow btn--mb" type="button" data-modal="#becomeClientModal" data-aos-anchor="#clients" data-aos="fade-in" data-aos-delay="200">
+                    <span>
+                        Become a client
+                    </span>
+                </button>
+                <span class="after_btn" data-aos-anchor="#clients" data-aos="fade-in" data-aos-delay="250">we love our clients</span>
+        </div> <!-- /conteiner-->
+    </section> <!-- /clients-->
+
+
+    <!-- Benefits -->
+
+    <section class="section" id="benefits" data-scrollspy="#benefits">
+        <div class="conteiner">
+           <h2 class="section_title" data-aos-anchor="#benefits" data-aos="fade-down" data-aos-delay="10"><span>Our</span>  Benefits</h2>
+
+            <div class="benefits">
+                <div class="benefits_col">
+                    <ul class="benefits_list">
+                        <li class="benefits_list-item" data-aos-anchor="#benefits" data-aos="fade-down">
+                            <h4 class="benefits_list-title">Safety</h4>
+                            <div class="benefits_list-text">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            </div>
+                        </li>
+
+                        <li class="benefits_list-item" data-aos-anchor="#benefits" data-aos="fade-down" data-aos-delay="25">
+                            <h4 class="benefits_list-title">High quality drivers</h4>
+                            <div class="benefits_list-text">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            </div>
+                        </li>
+
+                        <li class="benefits_list-item" data-aos-anchor="#benefits" data-aos="fade-down" data-aos-delay="50">
+                            <h4 class="benefits_list-title">Guarantee &amp; Support 24/7</h4>
+                            <div class="benefits_list-text">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            </div>
+                        </li>
+
+                        <li class="benefits_list-item" data-aos-anchor="#benefits" data-aos="fade-down" data-aos-delay="75">
+                            <h4 class="benefits_list-title">Personal manager</h4>
+                            <div class="benefits_list-text">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                            </div>
+                        </li>
+                    </ul> <!-- /benefits_list-->
+                </div> <!-- /benefits_col-->
+
+                <div class="benefits_col" data-aos-anchor="#benefits" data-aos="fade-left" data-aos-delay="100">
+                    <img class="img" src="assets/images/benefits_img.jpg" alt="benefits_img">
+                </div>
+            </div><!-- /benefits-->
+        </div> <!-- /conteiner-->
+    </section> <!-- /benefits-->
+
+
+    <!-- Team -->
+
+    <section class="section section--gray" id="team" data-scrollspy="#team">
+        <div class="conteiner">
+           <h2 class="section_title" data-aos-anchor="#team" data-aos="fade-down" data-aos-delay="10"><span>Our </span>team</h2>
+
+            <div class="team">
+                <div class="team_col">
+                    <div class="team_item" data-aos-anchor="#team" data-aos="fade-in" data-aos-delay="50" data-aos-duration="600">
+                        <img class="img team_photo" src="assets/images/team/team-1.jpg" alt="team_photo">
+                        <div class="team_name">John Smith</div>
+                        <div class="team_prof">Logistic manager - 8 years experience</div>
+                        <ul class="team_contact">
+                            <li>
+                                <img class="team_contact-icon" src="assets/images/form/icon-dark/icons_mail_black.svg" alt="">
+                                <a class="team_link" href="mailto:john@centerlogistic.com">john@centerlogistic.com</a>
+                            </li>
+                            <li>
+                                <img class="team_contact-icon" src="assets/images/form/icon-dark/icons_tel_black.svg" alt="">
+                                <a class="team_link" href="tel:+987412512543">+987412512543</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                     <div class="team_item" data-aos-anchor="#team" data-aos="fade-in" data-aos-delay="100" data-aos-duration="650">
+                        <img class="img team_photo" src="assets/images/team/team-2.jpg" alt="team_photo">
+                        <div class="team_name">Daniel Kore</div>
+                        <div class="team_prof">Software engineer</div>
+                        <ul class="team_contact">
+                            <li>
+                                <img class="team_contact-icon" src="assets/images/form/icon-dark/icons_mail_black.svg" alt="">
+                                <a class="team_link" href="mailto:daniel@centerlogistic.com">daniel@centerlogistic.com</a>
+                            </li>
+                            <li>
+                                <img class="team_contact-icon" src="assets/images/form/icon-dark/icons_tel_black.svg" alt="">
+                                <a class="team_link" href="tel:+987423252253">+987423252253</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="team_item" data-aos-anchor="#team" data-aos="fade-in" data-aos-delay="150" data-aos-duration="700">
+                        <img class="img team_photo" src="assets/images/team/team-3.jpg" alt="team_photo">
+                        <div class="team_name">Anna Filler</div>
+                        <div class="team_prof">Marketing specialist - 10 years experience</div>
+                        <ul class="team_contact">
+                            <li>
+                                <img class="team_contact-icon" src="assets/images/form/icon-dark/icons_mail_black.svg" alt="">
+                                <a class="team_link" href="mailto:anna@centerlogistic.com">anna@centerlogistic.com</a>
+                            </li>
+                            <li>
+                                <img class="team_contact-icon" src="assets/images/form/icon-dark/icons_tel_black.svg" alt="">
+                                <a class="team_link" href="tel:+98735353456">+98735353456</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- /team_col-->
+            </div> <!-- /team-->
+        </div> <!-- /conteiner-->
+    </section> <!-- /Team-->
+
+
+    <!-- /Our mission-->
+
+    <section class="section" id="mission" data-scrollspy="#mission">
+        <div class="conteiner">
+            <h2 class="mission_main-title" data-aos-anchor="#mission" data-aos="fade-in" data-aos-delay="10">Our mission</h2>
+            <div class="mission" data-aos-anchor="#mission" data-aos="fade-up" data-aos-delay="10">
+                <h3 class="mission_title">To provide our customer qualified services according the international</h3>
+                <h4 class="mission_subtitle">Book your Cargo now &amp; Your job just got a lot easier</h4>
+            </div>
+
+            <div class="text-center" data-aos-anchor="#mission" data-aos="fade-in" data-aos-delay="200">
+                <button class="btn btn--orange btn--shadow" type="button" data-modal="#becomeClientModal">
+                    <span>
+                        Become a client
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- News -->
+
+    <section class="section section--last" id="news" data-scrollspy="#news">
+        <div class="conteiner">
+            <h2 class="section_title" data-aos-anchor="#news" data-aos="fade-down" data-aos-delay="10"><span>Interesting </span>to read</h2>
+            <div class="article">
+                <article class="articles" data-aos-anchor="#news" data-aos="fade-left" data-aos-delay="10">
+                    <div class="article_item">
+                        <h3 class="articles_title">News title</h3>
+                        <div class="articles_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                        <time class="articles_datetime" datetime="2019-03-21 19:00">21 March, 2019</time>
+                    </div>
+                </article>
+
+                <article class="articles" data-aos-anchor="#news" data-aos="fade-left" data-aos-delay="10">
+                    <div class="article_item">
+                        <h3 class="articles_title">News title</h3>
+                        <div class="articles_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                        <time class="articles_datetime" datetime="2019-03-21 19:00">21 March, 2019</time>
+                    </div>
+                </article>
+            </div> <!-- /article-->
+
+
+
+            <a class="btn btn--orange btn--shadow" href="block.html" data-aos-anchor="#news" data-aos="fade-in" data-aos-delay="200">
+                <span>
+                    Visit blog
+                </span>
+            </a>
+        </div> <!-- /conteiner-->
+    </section> <!-- /News -->
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="conteiner">
+           <a class="header_logo header_logo--black" href="#" data-scroll="#intro">
+               <img class="header_logo-icon" src="assets/images/footer_logo-b.svg" alt="Center Logistic">
+               <span class="header_logo-text">CenterLogistic</span>
+            </a>
+           <address class="address">
+               <p>New York, Street, ZIP code</p>
+               <p>Call Us:
+                   <a href="tel:+9948373123">+9948373123</a> or
+                   E-mail:
+                   <a href="mailto:hello@centerlogistic.com">hello@centerlogistic.com</a>
+               </p>
+           </address>
+           <nav class="footer_nav">
+               <a class="footer_nav_link" href="text_2.html">Terms &amp; Contidions </a>
+               <a class="footer_nav_link" href="text.html">Privacy Policy</a>
+               <a class="footer_nav_link" href="block.html">Our blog</a>
+           </nav>
+
+        </div> <!-- /conteiner-->
+    </footer>
+
+</div> <!-- Page -->
+
+<!-- Modals -->
+
+<div class="modal" id="becomeClientModal">
+    <div class="modal_inner">
+        <div class="modal_content">
+            <div class="modal_header">
+                <h4 class="modal_title">Need to deliver your cargo? We can help!</h4>
+                <div class="modal_subtitle">Fill a little form and we will call you back!</div>
+            </div>
+
+            <form class="form" action="/" method="post">
+                <div class="form_group">
+                    <input class="input input--dark input--user" type="text" name="name" placeholder="Your name">
+                </div>
+                <div class="form_group">
+                    <input class="input input--dark input--phone" type="tel" name="tel" placeholder="Your phone">
+                </div>
+                <div class="form_group">
+                    <input class="input input--dark input--mail" type="email" name="email" placeholder="Your e-mail">
+                </div>
+                <button class="btn btn--orange btn--long" type="submit" data-modal="#thanksModal" data-otherModal-close>
+                    <span>Call me back</span>
+                </button>
+            </form>
+
+            <address class="modal_contact">
+                    <div class="contact_title">Our contacts</div>
+                    <p>New York, Street, ZIP code</p>
+                    <p>Phone: <a href="tel:+9948373123">+9948373123</a></p>
+                    <p>E-mail: <a href="mailto:hello@centerlogistic.com">hello@centerlogistic.com</a></p>
+            </address>
+
+            <button class="modal_close" data-modal-close></button>
+        </div> <!-- /modal_content-->
+    </div><!-- /modal_inner-->
+</div> <!-- /modals-->
+
+
+<div class="modal" id="thanksModal">
+    <div class="modal_inner">
+    <div class="modal_content">
+        <img class="modal_icon" src="assets/images/form/tick.svg" alt="">
+
+        <div class="modal_header">
+            <div class="modal_title">Thanks for your request</div>
+            <div class="modal_subtitle">We call you back as soon as possible!</div>
+        </div>
+
+        <address class="modal_contact">
+            <div class="contact_title">Our contacts</div>
+            <p>New York, Street, ZIP code</p>
+            <p>Phone: <a href="tel:+9948373123">+9948373123</a></p>
+            <p>E-mail: <a href="mailto:hello@centerlogistic.com">hello@centerlogistic.com</a></p>
+        </address>
+
+        <button class="modal_close" data-modal-close>
+
+        </button>
+    </div>
+    </div><!-- /modal_inner-->
+</div> <!-- /modals-->
+
+
+<!--  Javascript  -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/ap.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
